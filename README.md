@@ -2,11 +2,22 @@
 
 Coverage reporting tool for The Go Programming Language
 
+⚠️ **NOTICE**: The original repository (github.com/axw/gocov) is no longer maintained. This is an actively maintained fork with compatibility updates for newer Go versions.
+
 [![Build Status](https://travis-ci.org/axw/gocov.svg?branch=master)](https://travis-ci.org/axw/gocov)
 
 ## Installation
 
-```go install github.com/axw/gocov/gocov@latest```
+```go install github.com/你的用户名/gocov/gocov@latest```
+
+For users transitioning from the original repository, this fork provides:
+- Compatibility with newer Go versions (up to Go 1.25)
+- Updated dependencies
+- Continued maintenance and bug fixes
+
+## Migration from Original Repository
+
+If you were previously using `github.com/axw/gocov`, simply update your import paths and installation commands to use this repository instead.
 
 ## Usage
 
